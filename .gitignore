@@ -1,0 +1,50 @@
+ # 编译输出目录
+bin/
+obj/
+
+# 编译产物文件
+*.dll
+*.exe
+*.pdb
+*.cache
+*.rsp
+*.xml
+*.log
+
+# Visual Studio 缓存与配置
+.vs/
+*.suo
+*.user
+*.sln.docstates
+*.sln.ide
+*.vspx
+*.tlog
+*.trs
+
+# 数据库本地文件
+*.mdf
+*.ldf
+*.db
+*.sqlite
+*.sqlite3
+
+# 本地开发配置文件（不提交本地调试配置）
+appsettings.Development.json
+appsettings.Local.json
+
+# 压缩包、临时文件
+*.rar
+*.zip
+*.7z
+*.tmp
+*.bak
+
+# 系统隐藏文件
+Thumbs.db
+.DS_Store
+
+# Node前端（如果项目包含前端）
+node_modules/
+dist/
+package-lock.json
+yarn.lock
